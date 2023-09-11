@@ -19,6 +19,7 @@
     border-color: black;
     color: aqua;
     overflow: hidden;
+    
 }
 
 
@@ -62,7 +63,7 @@ li a {
     text-decoration: none;
   }
   li a:hover {
-    text-shadow: #fff;
+    text-decoration: underline;
     
   }
 .title_description{
@@ -71,6 +72,19 @@ li a {
     font-family: 'Sofia Sans', sans-serif;
     font-size: 1.5rem;
     top: 200px;
+    
+    padding-bottom: 1px;
+}
+.footer
+{
+    
+        position: relative;
+        text-align: center;
+        font-family:'Sofia Sans', sans-serif; 
+        font-size: 2rem;
+        top: 190px;
+        left: 45%;
+    
 }
 
 

@@ -4,6 +4,10 @@
     height: 100%;
     overflow: hidden;
 }
+.page{
+    position: absolute;
+    color: #fff;
+}
 
 .top_container{
     position: absolute;
@@ -16,15 +20,14 @@
     color: aqua;
     overflow: hidden;
 }
-.navbar{
-    color: aqua;
-}
+
+
 .title{
     position: relative;
     text-align: center;
     font-family: 'Sacramento', cursive;
-    font-size: 7rem;
-    top: 60px;
+    font-size: 8rem;
+    top: 190px;
 }
 .bottom-text{
     position: absolute;
@@ -36,21 +39,46 @@
     left: 48%;
 
 }
+.links{
+    position: relative;
+    left: 40%;
+    top: 210px;
+}
+ul
+{
+    list-style: none;
+
+       
+}
+li
+{
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    text-shadow: #fff;
+    
+  }
 .title_description{
     position: relative;
     text-align: center;
     font-family: 'Sofia Sans', sans-serif;
     font-size: 1.5rem;
-    top: 60px;
+    top: 200px;
 }
 
-.about{
-    position: relative;
-    text-align: center;
-    font-family: 'Sacramento', cursive;
-    font-size: 69px;
-    top: 50px;
-}
+
+
+
+
+/*  Caution Starfield Ahead !!!!!!  */
+
 
 #stars {
     width: 1px;
